@@ -5,13 +5,13 @@ var END=0;
 
 function preload() {
   
-   forestImg=loadImage("images/garden.png");
-   tomImg1=loadImage("images/cat1.png");
-   mouImg1=loadImage("images/mouse1.png");
-   mouImg2=loadAnimation("images/mouse2.png","images/mouse3.png");
-   tomImg2=loadAnimation("images/cat2.png","images/cat3.png");
-   tomImg3=loadImage("images/cat4.png");
-   mouImg3=loadImage("images/mouse4.png");
+   forestImg=loadImage("garden.png");
+   tomImg1=loadImage("cat1.png");
+   mouImg1=loadImage("mouse1.png");
+   mouImg2=loadAnimation("mouse2.png","mouse3.png");
+   tomImg2=loadAnimation("cat2.png","cat3.png");
+   tomImg3=loadImage("cat4.png");
+   mouImg3=loadImage("mouse4.png");
 }
 
 function setup(){
